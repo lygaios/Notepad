@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src: url(./assets/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Expletus Sans", sans-serif;
+  src: url(./assets/fonts/ExpletusSans-VariableFont_wght.ttf);
+}
+
+body {
+  background-color: #08090b;
+}
+
+h1 {
+  font-family: "Expletus Sans", sans-serif;
+  color: #7dfdde;
+}
+
+h2 {
+  font-family: "Expletus Sans", sans-serif;
+  color: #7dfdde;
+}
+
+#trash-headline {
+  font-family: "Expletus Sans", sans-serif;
+  color: #4bcfab;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: #7dfdde;
+}
+
+#trash {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #08090b;
+  color: #4bcfab;
+}
+
+#button-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #08231c;
+  border: solid 1px #4bcfab;
+  color: #4bcfab;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 0 20px #7dfdde;
+  border: solid 1px #7dfdde;
+  color: #7dfdde;
+}
+
+.note-box {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #08090b;
+  border: solid 1px #4bcfab;
+  color: #7dfdde;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#note-input {
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #08231c;
+  border: solid 1px #4bcfab;
+  color: #4bcfab;
+  transition: border-color 0.3s ease;
+}
+
+#note-input:focus {
+  box-shadow: 0 0 20px #4bcfab;
+  border: solid 1px #4bcfab;
+  outline: none;
+}
+
+.trash-box {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #08231c;
+  border: solid 1px #395453;
+  color: #4bcfab;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}

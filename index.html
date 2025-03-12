@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Notizblock</title>
+
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./styles/standard.css"/>
+    <link rel="stylesheet" href="./styles/assets.css" />
+    <script src="./script.js"></script>
+    <link rel="icon" href="./assets/icons/logo.png"/>
+  </head>
+  <body onload="init()">
+    <header id="header">
+      <img class="logo" src="./assets/icons/logo.png" alt="Logo"/>
+      <h1>Notizblock</h1>
+    </header>
+
+    <section id="main">
+      <h2>Neue Notiz</h2>
+      <input id="note-input" type="text"></input> 
+      <div id="button-bar">
+        <button class="button" onclick="addNote()" id="create">Notiz speichern</button>
+      </div>
+      <h2>Notizen</h2>
+      <div id="content"></div>
+      <h2 id="trash-headline">Papierkorb</h2>
+      <div id="trash"></div>
+    </section>
+
+    <footer id="footer">
+        <img class="logo" src="./assets/icons/logo.png" alt="Logo"/>
+    </footer>
+  </body>
+</html>
