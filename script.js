@@ -38,7 +38,7 @@ function getTrashNoteTemplate(indexTrashNote) {
   return `
         <div class="trash-box">
             <p>${indexTrashNote + 1}: ${trashNotes[indexTrashNote]}</p>
-            <button class="button" id="restore" onclick="permaDeleteNote(${indexTrashNote})">Delete permanently</button>
+            <button class="button" id="restore" onclick="permaDeleteNote(${indexTrashNote})">Delete</button>
         </div>
     `;
 }
