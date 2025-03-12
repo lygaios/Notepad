@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Notizblock</title>
+    <title>Notepad</title>
 
     <link rel="stylesheet" href="./style.css"/>
     <link rel="stylesheet" href="./styles/standard.css"/>
@@ -14,18 +14,18 @@
   <body onload="init()">
     <header id="header">
       <img class="logo" src="./assets/icons/logo.png" alt="Logo"/>
-      <h1>Notizblock</h1>
+      <h1>Notepad</h1>
     </header>
 
     <section id="main">
-      <h2>Neue Notiz</h2>
+      <h2>New note</h2>
       <input id="note-input" type="text"></input> 
       <div id="button-bar">
-        <button class="button" onclick="addNote()" id="create">Notiz speichern</button>
+        <button class="button" onclick="addNote()" id="create">Save note</button>
       </div>
-      <h2>Notizen</h2>
+      <h2>Notes</h2>
       <div id="content"></div>
-      <h2 id="trash-headline">Papierkorb</h2>
+      <h2 id="trash-headline">Recycle bin</h2>
       <div id="trash"></div>
     </section>
 

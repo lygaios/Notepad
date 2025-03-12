@@ -29,7 +29,7 @@ function getNoteTemplate(indexNote) {
   return `
       <div class="note-box">
           <p>${indexNote + 1}: ${notes[indexNote]} </p>
-          <button class="button" id="delete" onclick="deleteNote(${indexNote})">Löschen</button>
+          <button class="button" id="delete" onclick="deleteNote(${indexNote})">Delete</button>
       </div>
   `;
 }
@@ -38,7 +38,7 @@ function getTrashNoteTemplate(indexTrashNote) {
   return `
         <div class="trash-box">
             <p>${indexTrashNote + 1}: ${trashNotes[indexTrashNote]}</p>
-            <button class="button" id="restore" onclick="permaDeleteNote(${indexTrashNote})">Endgültig löschen</button>
+            <button class="button" id="restore" onclick="permaDeleteNote(${indexTrashNote})">Delete permanently</button>
         </div>
     `;
 }
